@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ACC91381C3E1CDB00BB0D7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC91371C3E1CDB00BB0D7E /* main.m */; };
+		5ACC913B1C3E1CDB00BB0D7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC913A1C3E1CDB00BB0D7E /* AppDelegate.m */; };
+		5ACC913E1C3E1CDB00BB0D7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC913D1C3E1CDB00BB0D7E /* ViewController.m */; };
+		5ACC91411C3E1CDB00BB0D7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACC913F1C3E1CDB00BB0D7E /* Main.storyboard */; };
+		5ACC91431C3E1CDB00BB0D7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACC91421C3E1CDB00BB0D7E /* Assets.xcassets */; };
+		5ACC91461C3E1CDB00BB0D7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACC91441C3E1CDB00BB0D7E /* LaunchScreen.storyboard */; };
+		5ACC91511C3E1CDB00BB0D7E /* LeftAlignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC91501C3E1CDB00BB0D7E /* LeftAlignmentTests.m */; };
+		5ACC915C1C3E1CDC00BB0D7E /* LeftAlignmentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC915B1C3E1CDC00BB0D7E /* LeftAlignmentUITests.m */; };
+		5ACC916A1C3E5BA200BB0D7E /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 5ACC91691C3E5BA200BB0D7E /* data.json */; settings = {ASSET_TAGS = (); }; };
+		5ACC916D1C3E5C1400BB0D7E /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC916C1C3E5C1400BB0D7E /* CollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		5ACC91701C3E5C2D00BB0D7E /* CollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC916F1C3E5C2D00BB0D7E /* CollectionReusableView.m */; settings = {ASSET_TAGS = (); }; };
+		5ACC91731C3E5CA200BB0D7E /* LeftAlignmentFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC91721C3E5CA200BB0D7E /* LeftAlignmentFlowLayout.m */; settings = {ASSET_TAGS = (); }; };
+		5ACC91761C3E627100BB0D7E /* FoodItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC91751C3E627000BB0D7E /* FoodItem.m */; settings = {ASSET_TAGS = (); }; };
+		5ACC91791C3E628C00BB0D7E /* FoodItemGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC91781C3E628C00BB0D7E /* FoodItemGroup.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ACC914D1C3E1CDB00BB0D7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ACC912B1C3E1CDB00BB0D7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ACC91321C3E1CDB00BB0D7E;
+			remoteInfo = LeftAlignment;
+		};
+		5ACC91581C3E1CDC00BB0D7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ACC912B1C3E1CDB00BB0D7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ACC91321C3E1CDB00BB0D7E;
+			remoteInfo = LeftAlignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5ACC91331C3E1CDB00BB0D7E /* LeftAlignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeftAlignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACC91371C3E1CDB00BB0D7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5ACC91391C3E1CDB00BB0D7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5ACC913A1C3E1CDB00BB0D7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5ACC913C1C3E1CDB00BB0D7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5ACC913D1C3E1CDB00BB0D7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5ACC91401C3E1CDB00BB0D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5ACC91421C3E1CDB00BB0D7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5ACC91451C3E1CDB00BB0D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5ACC91471C3E1CDB00BB0D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ACC914C1C3E1CDB00BB0D7E /* LeftAlignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeftAlignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACC91501C3E1CDB00BB0D7E /* LeftAlignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftAlignmentTests.m; sourceTree = "<group>"; };
+		5ACC91521C3E1CDB00BB0D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ACC91571C3E1CDC00BB0D7E /* LeftAlignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeftAlignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACC915B1C3E1CDC00BB0D7E /* LeftAlignmentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftAlignmentUITests.m; sourceTree = "<group>"; };
+		5ACC915D1C3E1CDC00BB0D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ACC91691C3E5BA200BB0D7E /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		5ACC916B1C3E5C1400BB0D7E /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		5ACC916C1C3E5C1400BB0D7E /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		5ACC916E1C3E5C2D00BB0D7E /* CollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionReusableView.h; sourceTree = "<group>"; };
+		5ACC916F1C3E5C2D00BB0D7E /* CollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionReusableView.m; sourceTree = "<group>"; };
+		5ACC91711C3E5CA200BB0D7E /* LeftAlignmentFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftAlignmentFlowLayout.h; sourceTree = "<group>"; };
+		5ACC91721C3E5CA200BB0D7E /* LeftAlignmentFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftAlignmentFlowLayout.m; sourceTree = "<group>"; };
+		5ACC91741C3E627000BB0D7E /* FoodItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodItem.h; sourceTree = "<group>"; };
+		5ACC91751C3E627000BB0D7E /* FoodItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodItem.m; sourceTree = "<group>"; };
+		5ACC91771C3E628C00BB0D7E /* FoodItemGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodItemGroup.h; sourceTree = "<group>"; };
+		5ACC91781C3E628C00BB0D7E /* FoodItemGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodItemGroup.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ACC91301C3E1CDB00BB0D7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACC91491C3E1CDB00BB0D7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACC91541C3E1CDB00BB0D7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ACC912A1C3E1CDB00BB0D7E = {
+			isa = PBXGroup;
+			children = (
+				5ACC91351C3E1CDB00BB0D7E /* LeftAlignment */,
+				5ACC914F1C3E1CDB00BB0D7E /* LeftAlignmentTests */,
+				5ACC915A1C3E1CDC00BB0D7E /* LeftAlignmentUITests */,
+				5ACC91341C3E1CDB00BB0D7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ACC91341C3E1CDB00BB0D7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ACC91331C3E1CDB00BB0D7E /* LeftAlignment.app */,
+				5ACC914C1C3E1CDB00BB0D7E /* LeftAlignmentTests.xctest */,
+				5ACC91571C3E1CDC00BB0D7E /* LeftAlignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ACC91351C3E1CDB00BB0D7E /* LeftAlignment */ = {
+			isa = PBXGroup;
+			children = (
+				5ACC91391C3E1CDB00BB0D7E /* AppDelegate.h */,
+				5ACC913A1C3E1CDB00BB0D7E /* AppDelegate.m */,
+				5ACC913C1C3E1CDB00BB0D7E /* ViewController.h */,
+				5ACC913D1C3E1CDB00BB0D7E /* ViewController.m */,
+				5ACC91741C3E627000BB0D7E /* FoodItem.h */,
+				5ACC91751C3E627000BB0D7E /* FoodItem.m */,
+				5ACC91771C3E628C00BB0D7E /* FoodItemGroup.h */,
+				5ACC91781C3E628C00BB0D7E /* FoodItemGroup.m */,
+				5ACC916B1C3E5C1400BB0D7E /* CollectionViewCell.h */,
+				5ACC916C1C3E5C1400BB0D7E /* CollectionViewCell.m */,
+				5ACC916E1C3E5C2D00BB0D7E /* CollectionReusableView.h */,
+				5ACC916F1C3E5C2D00BB0D7E /* CollectionReusableView.m */,
+				5ACC91711C3E5CA200BB0D7E /* LeftAlignmentFlowLayout.h */,
+				5ACC91721C3E5CA200BB0D7E /* LeftAlignmentFlowLayout.m */,
+				5ACC913F1C3E1CDB00BB0D7E /* Main.storyboard */,
+				5ACC91421C3E1CDB00BB0D7E /* Assets.xcassets */,
+				5ACC91441C3E1CDB00BB0D7E /* LaunchScreen.storyboard */,
+				5ACC91471C3E1CDB00BB0D7E /* Info.plist */,
+				5ACC91361C3E1CDB00BB0D7E /* Supporting Files */,
+			);
+			path = LeftAlignment;
+			sourceTree = "<group>";
+		};
+		5ACC91361C3E1CDB00BB0D7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ACC91691C3E5BA200BB0D7E /* data.json */,
+				5ACC91371C3E1CDB00BB0D7E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5ACC914F1C3E1CDB00BB0D7E /* LeftAlignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				5ACC91501C3E1CDB00BB0D7E /* LeftAlignmentTests.m */,
+				5ACC91521C3E1CDB00BB0D7E /* Info.plist */,
+			);
+			path = LeftAlignmentTests;
+			sourceTree = "<group>";
+		};
+		5ACC915A1C3E1CDC00BB0D7E /* LeftAlignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5ACC915B1C3E1CDC00BB0D7E /* LeftAlignmentUITests.m */,
+				5ACC915D1C3E1CDC00BB0D7E /* Info.plist */,
+			);
+			path = LeftAlignmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ACC91321C3E1CDB00BB0D7E /* LeftAlignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ACC91601C3E1CDC00BB0D7E /* Build configuration list for PBXNativeTarget "LeftAlignment" */;
+			buildPhases = (
+				5ACC912F1C3E1CDB00BB0D7E /* Sources */,
+				5ACC91301C3E1CDB00BB0D7E /* Frameworks */,
+				5ACC91311C3E1CDB00BB0D7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeftAlignment;
+			productName = LeftAlignment;
+			productReference = 5ACC91331C3E1CDB00BB0D7E /* LeftAlignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5ACC914B1C3E1CDB00BB0D7E /* LeftAlignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ACC91631C3E1CDC00BB0D7E /* Build configuration list for PBXNativeTarget "LeftAlignmentTests" */;
+			buildPhases = (
+				5ACC91481C3E1CDB00BB0D7E /* Sources */,
+				5ACC91491C3E1CDB00BB0D7E /* Frameworks */,
+				5ACC914A1C3E1CDB00BB0D7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ACC914E1C3E1CDB00BB0D7E /* PBXTargetDependency */,
+			);
+			name = LeftAlignmentTests;
+			productName = LeftAlignmentTests;
+			productReference = 5ACC914C1C3E1CDB00BB0D7E /* LeftAlignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5ACC91561C3E1CDB00BB0D7E /* LeftAlignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ACC91661C3E1CDC00BB0D7E /* Build configuration list for PBXNativeTarget "LeftAlignmentUITests" */;
+			buildPhases = (
+				5ACC91531C3E1CDB00BB0D7E /* Sources */,
+				5ACC91541C3E1CDB00BB0D7E /* Frameworks */,
+				5ACC91551C3E1CDB00BB0D7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ACC91591C3E1CDC00BB0D7E /* PBXTargetDependency */,
+			);
+			name = LeftAlignmentUITests;
+			productName = LeftAlignmentUITests;
+			productReference = 5ACC91571C3E1CDC00BB0D7E /* LeftAlignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ACC912B1C3E1CDB00BB0D7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = vizz;
+				TargetAttributes = {
+					5ACC91321C3E1CDB00BB0D7E = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					5ACC914B1C3E1CDB00BB0D7E = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 5ACC91321C3E1CDB00BB0D7E;
+					};
+					5ACC91561C3E1CDB00BB0D7E = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 5ACC91321C3E1CDB00BB0D7E;
+					};
+				};
+			};
+			buildConfigurationList = 5ACC912E1C3E1CDB00BB0D7E /* Build configuration list for PBXProject "LeftAlignment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ACC912A1C3E1CDB00BB0D7E;
+			productRefGroup = 5ACC91341C3E1CDB00BB0D7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ACC91321C3E1CDB00BB0D7E /* LeftAlignment */,
+				5ACC914B1C3E1CDB00BB0D7E /* LeftAlignmentTests */,
+				5ACC91561C3E1CDB00BB0D7E /* LeftAlignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ACC91311C3E1CDB00BB0D7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACC91461C3E1CDB00BB0D7E /* LaunchScreen.storyboard in Resources */,
+				5ACC91431C3E1CDB00BB0D7E /* Assets.xcassets in Resources */,
+				5ACC91411C3E1CDB00BB0D7E /* Main.storyboard in Resources */,
+				5ACC916A1C3E5BA200BB0D7E /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACC914A1C3E1CDB00BB0D7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACC91551C3E1CDB00BB0D7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ACC912F1C3E1CDB00BB0D7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACC913E1C3E1CDB00BB0D7E /* ViewController.m in Sources */,
+				5ACC91761C3E627100BB0D7E /* FoodItem.m in Sources */,
+				5ACC91701C3E5C2D00BB0D7E /* CollectionReusableView.m in Sources */,
+				5ACC91731C3E5CA200BB0D7E /* LeftAlignmentFlowLayout.m in Sources */,
+				5ACC913B1C3E1CDB00BB0D7E /* AppDelegate.m in Sources */,
+				5ACC916D1C3E5C1400BB0D7E /* CollectionViewCell.m in Sources */,
+				5ACC91791C3E628C00BB0D7E /* FoodItemGroup.m in Sources */,
+				5ACC91381C3E1CDB00BB0D7E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACC91481C3E1CDB00BB0D7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACC91511C3E1CDB00BB0D7E /* LeftAlignmentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACC91531C3E1CDB00BB0D7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACC915C1C3E1CDC00BB0D7E /* LeftAlignmentUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ACC914E1C3E1CDB00BB0D7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ACC91321C3E1CDB00BB0D7E /* LeftAlignment */;
+			targetProxy = 5ACC914D1C3E1CDB00BB0D7E /* PBXContainerItemProxy */;
+		};
+		5ACC91591C3E1CDC00BB0D7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ACC91321C3E1CDB00BB0D7E /* LeftAlignment */;
+			targetProxy = 5ACC91581C3E1CDC00BB0D7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5ACC913F1C3E1CDB00BB0D7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ACC91401C3E1CDB00BB0D7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5ACC91441C3E1CDB00BB0D7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ACC91451C3E1CDB00BB0D7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5ACC915E1C3E1CDC00BB0D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5ACC915F1C3E1CDC00BB0D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ACC91611C3E1CDC00BB0D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeftAlignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vizz.LeftAlignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5ACC91621C3E1CDC00BB0D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeftAlignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vizz.LeftAlignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5ACC91641C3E1CDC00BB0D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeftAlignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vizz.LeftAlignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeftAlignment.app/LeftAlignment";
+			};
+			name = Debug;
+		};
+		5ACC91651C3E1CDC00BB0D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeftAlignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vizz.LeftAlignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeftAlignment.app/LeftAlignment";
+			};
+			name = Release;
+		};
+		5ACC91671C3E1CDC00BB0D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeftAlignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vizz.LeftAlignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeftAlignment;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5ACC91681C3E1CDC00BB0D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeftAlignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vizz.LeftAlignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeftAlignment;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ACC912E1C3E1CDB00BB0D7E /* Build configuration list for PBXProject "LeftAlignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACC915E1C3E1CDC00BB0D7E /* Debug */,
+				5ACC915F1C3E1CDC00BB0D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ACC91601C3E1CDC00BB0D7E /* Build configuration list for PBXNativeTarget "LeftAlignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACC91611C3E1CDC00BB0D7E /* Debug */,
+				5ACC91621C3E1CDC00BB0D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ACC91631C3E1CDC00BB0D7E /* Build configuration list for PBXNativeTarget "LeftAlignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACC91641C3E1CDC00BB0D7E /* Debug */,
+				5ACC91651C3E1CDC00BB0D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ACC91661C3E1CDC00BB0D7E /* Build configuration list for PBXNativeTarget "LeftAlignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACC91671C3E1CDC00BB0D7E /* Debug */,
+				5ACC91681C3E1CDC00BB0D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ACC912B1C3E1CDB00BB0D7E /* Project object */;
+}
